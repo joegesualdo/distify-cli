@@ -1,6 +1,6 @@
 {
   "name": "distify-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create distribution files for npm packages.",
   "main": "cli.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "distify-npm-package": "0.0.1",
     "parse-argv": "0.0.2"
   },
-  "distify": {
+  "bin": {
     "distify": "cli.js"
   }
 }
