@@ -25,4 +25,5 @@ var fullOutputDirPath = path.join(process.cwd(), argv['output-dir'])
 distifyNpmPackage(argv['input-file'], argv['output-dir'], {
   isModule: argv.hasOwnProperty('is-module'),
   isNode: argv.hasOwnProperty('is-node'),
+  addShebang: argv.hasOwnProperty('is-cli'),
 })
