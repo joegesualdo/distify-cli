@@ -7,8 +7,12 @@ $ npm install -g distify-cli
 ```
 
 ## Usage
-```javascript
+```
 $ distify --input-file=./src/index.js --output-dir=./build --is-module --is-node
+```
+React:
+```
+$ distify --input-file=./src/index.js --output-dir=./build --is-react
 ```
 
 ## Related
