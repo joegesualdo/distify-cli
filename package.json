@@ -1,8 +1,8 @@
 {
   "name": "distify-cli",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Create distribution files for npm packages.",
-  "main": "cli.js",
+  "main": "./cli.js",
   "scripts": {
     "test": "mocha test.js"
   },
@@ -17,7 +17,7 @@
     "chai": "*"
   },
   "dependencies": {
-    "distify-npm-package": "0.0.11",
+    "distify-npm-package": "0.0.12",
     "parse-argv": "0.0.2"
   },
   "bin": {
