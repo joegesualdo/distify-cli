@@ -17,7 +17,7 @@
     "chai": "*"
   },
   "dependencies": {
-    "distify-npm-package": "0.0.13",
+    "distify-npm-package": "0.0.14",
     "parse-argv": "0.0.2"
   },
   "bin": {
